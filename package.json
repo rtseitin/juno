@@ -1,0 +1,21 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "Robert Tseitin",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "start": "tsc --downlevelIteration && node dist/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.4",
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0",
+    "mongoose": "^6.0.6",
+    "node-fetch": "^3.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  }
+}
