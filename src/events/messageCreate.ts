@@ -16,7 +16,7 @@ export const event: Event = {
       const embed = new MessageEmbed()
         .setColor('#fff0be')
         .setThumbnail(client.user.displayAvatarURL())
-        .setTitle(`You have productivity mode on, so stay and track and don't send messages on Discord! 😠`)
+        .setTitle(`You have productivity mode on, so stay on track and don't send messages on Discord! 😠`)
         .setDescription(`You can use \`${client.config.prefix}prod-mode\` to turn it off.`);
 
       return message.reply({ embeds: [embed] });
