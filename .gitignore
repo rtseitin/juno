@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Config files
+.env
+
+# Logs
+*.log
+
+# IDE and editor files
+.vscode/
+.idea/
+*.iml
+
+# TypeScript
+*.tsbuildinfo
+
+# npm
+package-lock.json
+
+# Discard all local configuration files
+*local*
